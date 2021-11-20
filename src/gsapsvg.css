@@ -1,0 +1,16 @@
+.gsap-page {
+    width: 100vw;
+    height: 92vh;
+    margin: 8vh 0 0;
+    padding: 5%;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gsap-page h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}

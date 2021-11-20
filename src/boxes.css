@@ -1,0 +1,56 @@
+.boxesPage {
+    position: absolute;
+    top: 8vh;
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    background: #282828;
+  }
+  
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--green);
+  font-weight: 600;
+  color: var(--light);
+}
+
+.box.hello {
+  background-color: yellow;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--blue);
+  font-weight: 600;
+  color: var(--light);
+}
+
+
+.upper {
+  position: absolute;
+  width: 100vw;
+  top: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.lower {
+  position: absolute;
+  bottom: 0vh;
+  display: flex;
+  flex-direction: column;
+}
